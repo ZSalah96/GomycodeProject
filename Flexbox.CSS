@@ -1,0 +1,12 @@
+.container1{display: flex; flex-direction: column;align-items: center;height:250px; }
+.container2{display: flex;flex-direction: column;align-items:center;height:250px;gap:10px;justify-content: center;}
+.container3{display: flex;width:100%;gap: 1500px;justify-content: space-evenly;height:250px;}
+.Start{
+    align-self: flex-end; 
+}
+.End{
+    align-self: flex-end;
+}
+.login{
+    align-self: center;
+}

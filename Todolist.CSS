@@ -1,0 +1,36 @@
+body{background-color: chocolate;display: flex;justify-content: center;}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    width:700px;height:500px;
+    background-color:white;
+    margin-right:250px;margin-left:200px;margin-top:120px;margin-bottom:100px;}
+.head{display:flex;justify-content: center;margin-bottom:20px;}
+.box1{display: flex;margin-bottom:30px;justify-content:center;}
+.Task{width:500px;border-radius:5px;box-shadow:2px 2px 8px 3px rgb(211, 208, 208);border: transparent;}
+.button{background-color:orangered;border-radius:5px;margin-left:3px;border:none;height:25px;width:90px;color:white;}
+.box2{display:flex;justify-content:space-between;height:40px;align-items: center;margin-left:60px;margin-right:2%;}
+.box3{display:flex;justify-content:space-between;height:40px;align-items: center;margin-left:60px;margin-right:2%;}
+.box4{display:flex;justify-content:space-between;height:40px;align-items: center;margin-left:60px;margin-right:2%;}
+.box5{display:flex;justify-content:space-between;height:40px;align-items: center;margin-left:60px;margin-right:2%;}
+.box6{display:flex;justify-content:space-between;height:40px;align-items: center;margin-left:60px;margin-right:2%;}
+.button2{border:none;background-color: darkgray;border-radius:8px;height:80%;width:120px;margin-right:50px;font-family:'Times New Roman', Times, serif;font-size:large;}
+.button3{border:none;background-color:darkgray;border-radius:8px;height:80%;width:120px;margin-right:50px;font-family:'Times New Roman', Times, serif;font-size: large;}
+.button4{border:none;background-color: darkgray;border-radius:8px;height:80%;width:120px;margin-right:50px;font-family:'Times New Roman', Times, serif;font-size: large;}
+.button5{border:none;background-color: darkgray;border-radius:8px;height:80%;width:120px;margin-right:50px;font-family:'Times New Roman', Times, serif;font-size: large;}
+.button6{border:none;background-color: darkgray;border-radius:8px;height:80%;width:120px;margin-right:50px;font-family:'Times New Roman', Times, serif;font-size: large;}
+
+.button:hover{border: groove;}
+.button2:hover{border:solid;}
+.button3:hover{border:solid;}
+.button4:hover{border:solid;}
+.button5:hover{border:solid;}
+.button6:hover{border:solid;}
+
+.button:active{background-color: brown;}
+.button2:active{background-color:grey;}
+.button3:active{background-color: grey;}
+.button4:active{background-color: grey;}
+.button5:active{background-color: grey;}
+.button6:active{background-color: grey;}
