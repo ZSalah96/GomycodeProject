@@ -1,0 +1,121 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ex2.CSS">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <div class="Date">
+                <div class="day">Sunday, 12th</div>
+                <div class="month">December</div>
+            </div>
+            <div class="TaskState">
+                <div class="Total">7 <br> Total</div>
+                <div class="Remaining">5 <br> Remaining</div>
+                <div class="Done">2 <br> Done</div>
+            </div>
+        </div>
+        <div class="TaskList">
+            <h1>Tasks for Today</h1>
+            <table>
+                <tr>
+                    <th></th>
+                    <th class="subject"></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-check" style="color: rgb(155, 100, 237);"></i></td>
+                    <td><p><del>buy milk</del></p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle"></i></td>
+                    <td><p>Buy bread</p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle"></i></td>
+                    <td><p>Pay the bills</p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-circle-check" style="color:rgb(155, 100, 237);"></i></td>
+                    <td><p><del>Go to the barber shop</del></p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle"></i></td>
+                    <td><p>Take a break</p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle"></i></td>
+                    <td><p>Conquer the world</p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+                <tr>
+                    <td><i class="fa-regular fa-circle"></i></td>
+                    <td><p>Conquer the Galaxy</p></td>
+                    <td><i class="fa-solid fa-circle-xmark"></i></td> 
+                </tr>
+
+                    
+            </table>
+            <button><b>+</b> Add new item</button>
+        </div>
+    </div>
+    <footer>Made by Salah Eddine ZERROUKI</footer>
+</body>
+</html>
+
+CSS
+
+body{
+    display: flex;
+    background-color:rgb(197, 220, 222);
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display:flex;
+    background-color: white;
+    width:450px;
+    Height:560px;
+    border-radius:10px;
+    flex-direction: column;}
+.Header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image:url(Background.PNG);
+    height:25%;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+.Date{display: flex;flex-direction: column;align-items: center;margin-bottom:30px;margin-top:5px ;}
+.TaskState{display: flex;justify-content: space-around;} 
+.TaskList{display: flex;flex-direction: column;justify-content:center;align-items: center;font-size: smaller;}
+h1{margin-top:10px;}
+
+table{font-size:medium;line-height: 5px;margin-right:20px;margin-left:20px;}
+button{
+    width: 130px;
+    height:30px ;
+    border-radius: 12px;
+    font-size:small;
+    background-image: linear-gradient(-45deg,rgb(33, 113, 225),rgb(155, 100, 237));
+    border:none;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.subject{width:400px;}
+.fa-regular{color: rgb(155, 100, 237);}
+footer{margin-top: 20px;color: gray;}
