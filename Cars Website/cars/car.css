@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 150px;
+    background-color: black;
+    align-items: center;
+    justify-content:space-around ;
+}
+table tr th{
+    column-width: 150px;
+    color: aliceblue;
+    font-size: xx-large;
+}
+table{
+    margin-left: 100px;
+}
+#Gclass{
+    width: 100%;
+}
+.footer{
+    background-color: white;
+    margin-left: 200px;
+}
+.button1{
+    Height:30px;width: 150px;
+    border-radius: 15px;
+    
+    
+    background-color: aliceblue;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(224, 199, 166);
+}
+.button2 {
+    Height:30px;width: 120px;
+    border-radius: 15px;
+    margin-left: 50px;
+    background-color: aliceblue;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color: rgb(224, 199, 166);
+
+}
+.centre{
+    background:url(Gclass.PNG) transparent;
+    height: 590px;
+    width: 1500;
+}
+#logo{
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.pub{
+    font-size: 100px;
+    color: black;
+    
+}
+.buttons{
+    display: flex;
+    
+}
